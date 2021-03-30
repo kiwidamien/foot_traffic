@@ -7,6 +7,16 @@ An analysis of where to put a new store!
 
 ## Layout
 
+```
+.
+├── Data Scientist Evaluation Test.docx
+├── README.md
+├── data
+│   ├── train.csv
+│   └── validation.csv
+└── foot_traffic.ipynb
+```
+
 ## Data Dictionary
 
 | Feature name    | Meaning                         |  Type          |
