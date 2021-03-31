@@ -20,7 +20,6 @@ $ pip install -r requirements.txt
 
 ```
 .
-├── Data\ Scientist\ Evaluation\ Test.docx
 ├── README.md
 ├── data
 │   ├── train.csv
