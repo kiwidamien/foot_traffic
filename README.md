@@ -5,17 +5,36 @@ An analysis of where to put a new store!
 
 ## Install / running
 
+It is recommended that you review the main notebook in either JupyerLab, or using the [collapable headings](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/collapsible_headings/readme.html) extention for Jupyter notebook. The EDA is quite long, and collapsing the sections will help navigate around the file faster.
+
+I have introduced _pinned_ versions of the requirements. Other than the category encoder package, most of the packages used here should be in the standard data science toolkit. To duplicate my environment, run
+
+```bash
+# Do this in a virtual env! The pinned versions might alter dependencies on
+# other projects you are working on
+$ pip install -r requirements.txt
+```
+
+
 ## Layout
 
 ```
 .
-├── Data Scientist Evaluation Test.docx
+├── Data\ Scientist\ Evaluation\ Test.docx
 ├── README.md
 ├── data
 │   ├── train.csv
 │   └── validation.csv
-└── foot_traffic.ipynb
+├── install_kernel.sh
+├── location_analysis.ipynb
+├── requirements.txt
+└── summary.ipynb
 ```
+
+The files that are of most interest are 
+- [location_analysis](./location_analysis.ipynb), which is the detailed EDA and modeling I did
+- [summary](./summary.ipynb), which contains a high-level summary of the modeling work, results, and further work that could be done.
+
 
 ## Data Dictionary
 
